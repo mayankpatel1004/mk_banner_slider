@@ -1,0 +1,91 @@
+.visitors-logs{width:100%;}
+ul.pagination {
+	font-family: "Arial", "Helvetica", sans-serif;
+	font-size: 13px;
+	height: 100%;
+	list-style-type: none;
+	margin: 20px 0;
+	overflow: hidden;
+	padding: 0;
+}
+ul.pagination li.details {
+	background-color: white;
+	border-color: #C8D5E0;
+	border-image: none;
+	border-style: solid;
+	border-width: 1px 1px 2px;
+	color: #1E598E;
+	font-weight: bold;
+	padding: 8px 10px;
+	text-decoration: none;
+}
+ul.pagination li.dot {
+	padding: 3px 0;
+}
+ul.pagination li {
+	float: left;
+	list-style-type: none;
+	margin: 0 3px 0 0;
+}
+ul.pagination li:first-child {
+	margin-left: 0;
+}
+ul.pagination li a {
+	color: black;
+	display: block;
+	padding: 7px 10px;
+	text-decoration: none;
+}
+ul.pagination li a img {
+	border: medium none;
+}
+ul.pagination li a.current {
+	background-color: white;
+	border-radius: 0 0 0 0;
+	color: #333333;
+}
+ul.pagination li a.current:hover {
+	background-color: white;
+}
+ul.pagination li a:hover {
+	background-color: #C8D5E0;
+}
+ul.pagination li a {
+	background-color: #F6F6F6;
+	border-color: #C8D5E0;
+	border-image: none;
+	border-style: solid;
+	border-width: 1px 1px 2px;
+	color: #1E598E;
+	display: block;
+	font-weight: bold;
+	padding: 8px 10px;
+	text-decoration: none;
+}
+.article {
+	border: 1px solid #EEEEEE;
+	border-radius: 4px 4px 4px 4px;
+	margin-bottom: 10px;
+	max-width: 600px;
+	padding: 5px;
+	line-height:18px;
+}
+.title {
+	font-weight:bold;
+	margin-bottom:5px;
+}
+.fr{float:right;}
+.fl{float:left;}
+.search-box{width:53%;}
+.bulkactionsdiv{width:30%;}
+.center-add{width:17%;float:left;}
+.wrapper-action{width:100%;}
+.bulkactionsdiv .bulkactions{float:right;margin-bottom:15px;}
+.delete-record{border:1px solid #390;padding:3px 0px;margin:0px 0px 10px 0px;text-align:center;color:#390;}
+.wp-core-ui .button-primary {
+    background-image: linear-gradient(to bottom, #2A95C5, #21759B) !important;
+}
+.wrap .add-new-h2, .wrap .add-new-h2:active {
+    margin-top: 5px !important;
+}
+#search-submit{margin-left:5px;}
